@@ -1,0 +1,12 @@
+// Toggle Chat - One Key Version
+// This version uses only one key
+
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8471
+// Made By: myst
+
+alias togglechat chaton
+alias chaton "hud_saytext_time 12; echo Chat is now ON; alias togglechat chatoff" 
+alias chatoff "hud_saytext_time 0; echo Chat is now OFF; alias togglechat chaton" 
+bind KEY togglechat // key to toggle chat
+
+echo Toggle Chat was successfully loaded.
