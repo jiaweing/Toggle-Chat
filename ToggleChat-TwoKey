@@ -1,0 +1,13 @@
+// Toggle Chat - Two Key Version
+// This version uses two keys instead of one
+
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8471
+// Made By: myst
+
+alias chaton "hud_saytext_time 12; echo Chat is now ON"
+alias chatoff "hud_saytext_time 0; echo Chat is now OFF"
+
+bind KEY chaton // key to turn on the chat
+bind KEY chatoff // key to turn off the chat
+
+echo Toggle Chat was successfully loaded.
