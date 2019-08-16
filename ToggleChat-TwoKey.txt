@@ -1,7 +1,7 @@
 // Toggle Chat - Two Key Version
 // This version uses two keys instead of one
 
-// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8471
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8449
 // Made By: myst
 
 alias chaton "hud_saytext_time 12; echo Chat is now ON"
