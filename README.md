@@ -1,8 +1,16 @@
+### Versions
+#### There are 3 different versions of the script.
+| Version | Description |
+|----------|-----------------------------------------------------------------------------------|
+| One Key | Uses only one key to toggle the chat |
+| Two Keys | Uses two keys to toggle on and off the chat |
+| Voice | Uses only one key to swap modes and has an additional mode to turn off voice chat |
+
 ### Installation
 If you do not have a file called autoexec.cfg, make a new file called autoexec.cfg and place it into your TF2 directory. See below for information on how to do this.
 
 ### Toggle Key
-Replace the bind "KEY" with whatever key you would like to turn on and off the chat.
+Replace the key in `bind KEY` with whatever key you would like to turn on and off the chat.
 
 ---
 
