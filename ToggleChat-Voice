@@ -1,0 +1,14 @@
+// Toggle Chat - Two Key Version
+// This version uses one key and..
+// has an additional mode to turn off voice chat
+
+// Originally Subitted To Gamebanana @ http://tf2.gamebanana.com/scripts/8449
+// Made By: myst
+
+alias togglechat chatoff
+alias chatoff "hud_saytext_time 0; echo Text Chat is now OFF; alias togglechat voiceoff" 
+alias voiceoff "voice_scale 0; echo Voice Chat is now OFF; alias togglechat chatvoiceon"
+alias chatvoiceon "voice_scale 1; hud_saytext_time 12; echo Text Chat And Voice Chat are now ON; alias togglechat chatoff" 
+bind KEY togglechat // key to toggle chat
+
+echo Toggle Chat was successfully loaded.
